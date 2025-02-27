@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.m1 { background-color: green; top: 20%; left: 10%; }
+.m2 { background-color: darkgreen; top: 5%; left: 45%; }
+.m3 { background-color: deepskyblue; top: 20%; right: 10%; }
+.m4 { background-color: darkred; bottom: 20%; right: 10%; }
+.m5 { background-color: deeppink; bottom: 5%; left: 45%; }
+.m6 { background-color: blue; bottom: 20%; left: 10%; }
+
+.goal {
+    background-color: peachpuff;
+    padding: 15px;
+    border: 2px solid orange;
+    text-align: center;
+    font-weight: bold;
+}
